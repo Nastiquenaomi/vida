@@ -1,0 +1,46 @@
+body {
+    background-color: #f7e6e6;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-align: center;
+    color: #555;
+}
+h1 {
+    color: #ff7675;
+    font-size: 2.5em;
+    margin-top: 20px;
+}
+p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 20px 0;
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+.gallery img {
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+.gallery img:hover {
+    transform: scale(1.05);
+}
+.note {
+    background-color: #fff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: fit-content;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #888;
+}
